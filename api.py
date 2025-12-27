@@ -18,11 +18,10 @@ class APIKeyManager:
     def __init__(self, api_dir="apikey/api/key"):
         self.api_dir = api_dir
         self.api_folders = [
-            "avatar", "joiner", "nhaydis", "nhayzalo", 
-            "rename", "spamdis", "spamzalo", "voice",
-            "ig", "spamdiskonen", "nhaymess", "treomess", "docquyen", "regtoken", "thuereg", "spamv6", "spamv5", "uuid"
+            "checktoken"
+         
         ]
-        self.github_repo = "https://github.com/quangthangcoder11/apikey.git"
+        self.github_repo = "https://github.com/nguyenkietdev/key.git"
     
     def print_header(self):
         header_text = """
